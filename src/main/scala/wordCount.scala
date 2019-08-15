@@ -1,6 +1,6 @@
 import org.apache.spark.{SparkConf, SparkContext}
 
-object hellowWord {
+object wordCount {
   def main(args: Array[String]): Unit = {
     val wordFile = "file:///data/word.txt"
     val conf = new SparkConf()
